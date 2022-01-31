@@ -2,8 +2,5 @@
   background: rgba(95, 158, 160, 0.089);
   max-width: 800px;
   text-align: center;
-}
-
-h1 {
-  text-align: center;
+  padding: 30px 0;
 }

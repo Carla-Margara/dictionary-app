@@ -14,7 +14,14 @@ export default function App() {
         </main>
 
         <footer className="text-center">
-          Coded with <span className="heart">❤</span> by Carla Margara
+          Hosted with <a href="https://www.netlify.com">Netlify</a>|
+          <a
+            href="https://github.com/Carla-Margara/dictionary-app"
+            title="GitHub Repository link"
+          >
+            Open-Sourced
+          </a>{" "}
+          and Coded with <span className="heart">❤</span> by Carla Margara
         </footer>
       </div>
     </div>
