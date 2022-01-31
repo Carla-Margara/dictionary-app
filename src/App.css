@@ -7,3 +7,10 @@
   display: block;
   margin: 0 auto;
 }
+.heart {
+  color: rgb(139, 13, 87);
+}
+footer {
+  font-size: 12px;
+  font-family: monospace;
+}
