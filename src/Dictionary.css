@@ -1,4 +1,6 @@
 .Dictionary {
+  display: block;
+  margin: 0 auto;
   background: rgba(95, 158, 160, 0.089);
   max-width: 800px;
   text-align: center;
