@@ -1,5 +1,5 @@
 import logoWhite from "./logoWhite.png";
-import background from "./enjoy-back.png";
+import background from "./yellow-leather.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -25,7 +25,7 @@ export default function App() {
           </div>
         </header>
         <main>
-          <Dictionary defaultKeyword="dictionary" />
+          <Dictionary defaultKeyword="word" />
         </main>
 
         <footer className="text-center">
