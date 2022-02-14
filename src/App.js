@@ -1,13 +1,28 @@
 import logoWhite from "./logoWhite.png";
+import background from "./enjoy-back.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="App">
+    <div style={{ backgroundImage: `url(${background})` }} className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logoWhite} className="App-logo img-fluid" alt="logo" />
+          <div className="row">
+            <div className="col-4">
+              <img src={logoWhite} className="App-logo img-fluid" alt="logo" />{" "}
+            </div>
+            <div className="col-8">
+              {" "}
+              <span className="App-quote">
+                <em>
+                  Every time I have to look up a word in the dictionary, I'm
+                  delighted.
+                </em>
+                - <strong>Vivienne Westwood</strong>
+              </span>
+            </div>
+          </div>
         </header>
         <main>
           <Dictionary defaultKeyword="dictionary" />

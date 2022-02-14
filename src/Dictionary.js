@@ -60,7 +60,10 @@ export default function Dictionary(props) {
             />
           </form>
           <div className="hint">
-            <em> Suggested Words: magic, love, rain, moon, nostalgia...</em>
+            <em>
+              {" "}
+              Suggested Words: travel, love, coding, success, happiness...
+            </em>
           </div>
         </section>
         <Results results={results} />
