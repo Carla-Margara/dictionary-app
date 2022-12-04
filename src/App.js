@@ -1,4 +1,4 @@
-import logoWhite from "./logoWhite.png";
+import logoWhite from "./margara-simple-logo-white.png";
 import background from "./yellow-leather.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
